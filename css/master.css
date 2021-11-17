@@ -1,0 +1,35 @@
+body {
+  color: #ebdbb2;
+  background-color: #282828;
+  font: 14px "Source Code Pro Medium";
+}
+
+span.normal {
+  color: #ebdbb2;
+}
+
+h2, h3 ,h4, h5, h6 {
+  color: #b8bb26;
+}
+
+img.center{
+  /* padding: 1em; */
+  margin-left: 2em;
+}
+
+hr {
+  border: 1px dashed #b16286;
+  margin-right: 1em;
+}
+
+ul li {
+  color: #83a598;
+}
+
+ul li p {
+  color: #ebdbb2;
+}
+
+a:visited {
+  color: #ebdbb2;
+}
