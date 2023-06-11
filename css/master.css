@@ -1,7 +1,6 @@
-/* Define Gruvbox colors */
 :root {
   --gruvbox-bg: #282828;
-  --gruvbox-fg: #DBD6D1;
+  --gruvbox-fg: #ecf0c1;
   --gruvbox-red: #FB4934;
   --gruvbox-green: #B8BB26;
   --gruvbox-yellow: #FABD2F;
@@ -9,6 +8,10 @@
   --gruvbox-purple: #D3869B;
   --gruvbox-aqua: #8EC07C;
   --gruvbox-gray: #A89984;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
@@ -19,34 +22,25 @@ body {
   overflow: hidden;
 }
 
-#title {
-  background-color: #6B5B95;
-  color: white;
-  padding: 0em;
-  margin: 0.0em;
-  /* margin: 0.0em; */
-}
-
-#title p {
-  padding: 0px 1em;
-  margin: 0em;
-}
-
 #main {
   display: flex;
   overflow: hidden;
   padding: 0.5rem;
 }
 
+#main.master {
+  flex-direction: row-reverse;
+}
+
 .containers {
   width: 50vw;
   height: 98vh;
-  padding: 2.5rem;
-  /* margin: 0.5em; */
+  padding: 0 2.5rem;
+  margin: 0.2rem;
   color: var(--gruvbox-fg);
   border: 1px solid #e5e9f0;
   box-sizing: border-box ;
-  background-color: rgba(0,0,0, 0.6);
+  background-color: rgba(25,25,25, 0.6);
   overflow: auto;
   font-family: 'Rancho';
   font-size: 22px;
@@ -85,16 +79,11 @@ h1, h2, h3 {
   color: var(--gruvbox-green);
 }
 
-/* h3, h5, h6 { */
-/*   color: var(--gruvbox-aqua); */
-/* } */
-
 a {
   color: var(--gruvbox-fg);
 }
 
 img.center{
-  /* padding: 1em; */
   margin-left: 2em;
 }
 
